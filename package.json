@@ -1,0 +1,23 @@
+{
+  "name": "sdm_exam",
+  "version": "1.0.0",
+  "description": "SDM Exam Repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waghdurgesh/229028_durgesh_wagh.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/waghdurgesh/229028_durgesh_wagh/issues"
+  },
+  "homepage": "https://github.com/waghdurgesh/229028_durgesh_wagh#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "express": "^4.18.2"
+  }
+}
