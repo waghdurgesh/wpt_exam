@@ -1,0 +1,153 @@
+//open mysql and copy paste:
+-------------------------------------------------------------------------------------------------
+
+alter user 'root'@'localhost' identified with mysql_native_password by '123456789';
+create database studentdb;
+use studentdb;
+create table student(
+Id int,
+Name varchar(100),
+Email varchar(100),
+Address varchar(100),
+Phone varchar(100));
+insert into student values(1,'Durgesh','Durgesh@gmail.com','Nashik','7020187672');
+insert into student values(2,'Kunal','Kunal@gmail.com','Nashik','988956321');
+insert into student values(3,'Aniket','Aniket@gmail.com','Nashik','956798123');
+insert into student values(4,'Siddhant','Siddhant@gmail.com','Beed','984321987');
+insert into student values(5,'Sourav','Sourav@gmail.com','Beed','797456321');
+
+-------------------------------------------------------------------------------------------------
+
+//open create a folder and open it with cmd and copypaste:
+
+-------------------------------------------------------------------------------------------------
+dotnet new sln
+dotnet new react -o myapp
+dotnet sln add myapp/myapp.csproj
+cd myapp
+dotnet add package Microsoft.EntityFrameworkCore --version 5.0.17
+dotnet add package Microsoft.EntityFrameworkCore.Design --version 5.0.17
+dotnet add package MySql.EntityFrameworkCore --version 5.0.17+MySQL8.0.31
+dotnet tool install --global dotnet-ef
+dotnet ef dbcontext scaffold "server=localhost;user id=root;password=123456789;database=employeecrud" MySql.EntityFrameworkCore -o Models
+-------------------------------------------------------------------------------------------------
+
+//open program.cs in 
+//1st line write : 
+-------------------------------------------------------------------------------------------------
+	using myapp.Models;
+-------------------------------------------------------------------------------------------------
+6th line write:
+-------------------------------------------------------------------------------------------------
+	builder.Services.AddDbContext<DBTESTContext>();
+-------------------------------------------------------------------------------------------------
+
+//paste EmployeeController.cs in controller folder 
+
+//Replace app.js and index.js in client/src with given app.js and index.js
+
+//open client/src/setupProxy.js 
+//8th line after /weatherForecase write:
+-------------------------------------------------------------------------------------------------
+	"/api/employee"
+-------------------------------------------------------------------------------------------------
+//run app type run command in terminal
+-------------------------------------------------------------------------------------------------
+	dotnet run
+-------------------------------------------------------------------------------------------------
+
+
+-------------------------------------------------------------------------------------------------
+App.js
+
+import React, { Component, useEffect, useState } from 'react';
+import { Route, Routes } from 'react-router-dom';
+import AppRoutes from './AppRoutes';
+import { Layout } from './components/Layout';
+import './custom.css';
+
+const App = () => {
+
+  const [students, setstudents] = useState([]);
+
+  useEffect(() => {
+    fetch("api/student/GetStudents")
+    .then(response => { return response.json();})
+    .then(responseJson => {
+      console.log(responseJson);
+      setstudents(responseJson)
+    })
+  },[])
+
+
+  return (
+  <div className="container">
+
+  <h1>Students</h1>
+    <div className="row">
+      <div className='col-sm-12'>
+        <table className="table table-striped">
+          <thead>
+            <tr>
+              <th>IdEmployee</th>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Address</th>
+              <th>Phone</th>
+            </tr>
+          </thead>
+          <tbody>
+            {
+              students.map((item) => (
+                <tr key={item.id}>
+                  <td>{item.id}</td>
+                  <td>{item.name}</td>
+                  <td>{item.email}</td>
+                  <td>{item.address}</td>
+                  <td>{item.phone}</td>
+                </tr>
+              ))
+            }
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  )
+} 
+export default App;
+
+
+
+-------------------------------------------------------------------------------------------------
+Controller
+
+
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using app1.Models;
+
+namespace AppReact.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    public class EmployeeController : ControllerBase
+    {
+
+        private readonly DBTESTContext _dbContext;
+
+        public EmployeeController(DBTESTContext dbContext)
+        {
+            _dbContext = dbContext;
+        }
+
+        [HttpGet]
+        [Route("GetEmployees")]
+        public IActionResult GetEmployees() { 
+            List<Employee> list = _dbContext.Employees.ToList();
+            return StatusCode(StatusCodes.Status200OK, list);
+        }
+
+    }
+}
