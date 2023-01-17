@@ -1,0 +1,25 @@
+dotnet new sln -o TransflowerPvtLtd
+
+cd TransflowerPvtLtd
+
+dotnet new mvc -o ManInfoSys
+
+dotnet sln add ManInfoSys\ManInfoSys.csproj
+
+dotnet new classlib -o BLL
+
+dotnet new classlib -o BOL
+
+dotnet new classlib -o DOL
+
+dotnet sln add BOL\BOL.csproj
+
+dotnet sln add BLL\BLL.csproj
+
+dotnet sln add DAL\DAL.csproj
+
+dotnet add reference ..\BOL\BOL.csproj
+
+dotnet add reference ..\BLL\BLL.csproj
+
+dotnet add reference ..\DAL\DAL.csproj

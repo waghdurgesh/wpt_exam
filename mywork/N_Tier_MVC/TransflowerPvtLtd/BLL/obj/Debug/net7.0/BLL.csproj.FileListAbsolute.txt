@@ -1,0 +1,17 @@
+F:\Module\MS Dotnet\git_repo_dotnet\ms_dotnet\N_Tier_MVC\TransflowerPvtLtd\BLL\bin\Debug\net7.0\BLL.deps.json
+F:\Module\MS Dotnet\git_repo_dotnet\ms_dotnet\N_Tier_MVC\TransflowerPvtLtd\BLL\bin\Debug\net7.0\BLL.dll
+F:\Module\MS Dotnet\git_repo_dotnet\ms_dotnet\N_Tier_MVC\TransflowerPvtLtd\BLL\bin\Debug\net7.0\BLL.pdb
+F:\Module\MS Dotnet\git_repo_dotnet\ms_dotnet\N_Tier_MVC\TransflowerPvtLtd\BLL\obj\Debug\net7.0\BLL.csproj.AssemblyReference.cache
+F:\Module\MS Dotnet\git_repo_dotnet\ms_dotnet\N_Tier_MVC\TransflowerPvtLtd\BLL\obj\Debug\net7.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+F:\Module\MS Dotnet\git_repo_dotnet\ms_dotnet\N_Tier_MVC\TransflowerPvtLtd\BLL\obj\Debug\net7.0\BLL.AssemblyInfoInputs.cache
+F:\Module\MS Dotnet\git_repo_dotnet\ms_dotnet\N_Tier_MVC\TransflowerPvtLtd\BLL\obj\Debug\net7.0\BLL.AssemblyInfo.cs
+F:\Module\MS Dotnet\git_repo_dotnet\ms_dotnet\N_Tier_MVC\TransflowerPvtLtd\BLL\obj\Debug\net7.0\BLL.csproj.CoreCompileInputs.cache
+F:\Module\MS Dotnet\git_repo_dotnet\ms_dotnet\N_Tier_MVC\TransflowerPvtLtd\BLL\obj\Debug\net7.0\BLL.dll
+F:\Module\MS Dotnet\git_repo_dotnet\ms_dotnet\N_Tier_MVC\TransflowerPvtLtd\BLL\obj\Debug\net7.0\refint\BLL.dll
+F:\Module\MS Dotnet\git_repo_dotnet\ms_dotnet\N_Tier_MVC\TransflowerPvtLtd\BLL\obj\Debug\net7.0\BLL.pdb
+F:\Module\MS Dotnet\git_repo_dotnet\ms_dotnet\N_Tier_MVC\TransflowerPvtLtd\BLL\obj\Debug\net7.0\ref\BLL.dll
+F:\Module\MS Dotnet\git_repo_dotnet\ms_dotnet\N_Tier_MVC\TransflowerPvtLtd\BLL\bin\Debug\net7.0\BOL.dll
+F:\Module\MS Dotnet\git_repo_dotnet\ms_dotnet\N_Tier_MVC\TransflowerPvtLtd\BLL\bin\Debug\net7.0\DAL.dll
+F:\Module\MS Dotnet\git_repo_dotnet\ms_dotnet\N_Tier_MVC\TransflowerPvtLtd\BLL\bin\Debug\net7.0\DAL.pdb
+F:\Module\MS Dotnet\git_repo_dotnet\ms_dotnet\N_Tier_MVC\TransflowerPvtLtd\BLL\bin\Debug\net7.0\BOL.pdb
+F:\Module\MS Dotnet\git_repo_dotnet\ms_dotnet\N_Tier_MVC\TransflowerPvtLtd\BLL\obj\Debug\net7.0\BLL.csproj.CopyComplete

@@ -1,0 +1,48 @@
+@using Prof.Models;
+@using System.Collections.Generic;
+
+@{
+  ViewData["List Page"] = "List Page";
+}
+<h1>List of Profiles</h1>
+@{
+  List<Profile> profile_list2 = (List<Profile>)ViewData["profilelist"];
+  <table class="table table-hover table-dark">
+    <thead style="text-align: left;">
+      <tr style="color : yellow">
+        <th scope="col">Sr.No</th>
+        <th scope="col">First Name</th>
+        <th scope="col">Last Name</th>
+        <th scope="col">Git Username</th>
+        <th scope="col">Email ID</th>
+        <th scope="col">Profile Url</th>
+        <th scope="col">Git Link</th>
+      </tr>
+    </thead>
+    <tbody>
+      @foreach (var profile in profile_list2)
+      {
+        <tr>
+          <th scope="row">
+            <ol>
+              <li></li>
+            </ol>
+          </th>
+          <td> @profile.Firstname</td>
+          <td> @profile.Lastname</td>
+          <td> @profile.Username</td>
+          <td> @profile.Email</td>
+          @{
+            var url = @profile.Profileurl;
+          }
+          <td>@url</td>
+          <td>
+            <button type="submit" class="btn btn-warning" onclick="window.location.href='@url';"> View Profile</button>
+          </td>
+        </tr>
+      }
+    </tbody>
+
+  </table>
+}
+</div>

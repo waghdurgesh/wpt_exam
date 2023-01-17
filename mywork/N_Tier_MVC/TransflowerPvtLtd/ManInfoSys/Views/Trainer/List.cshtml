@@ -1,0 +1,69 @@
+@using BOL;
+@{
+    ViewData["Basic"] = "Basic Detail Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Dark Table</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        #img_display {
+            width: 30px;
+            height: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="text-center">
+        <h3 class="display-6">Faculties available in the Institute</h3>
+    </div>
+
+    <div class="col-md-3">
+        <h5>Trainers List</h5>
+        @{
+            List<Trainer>? AllTrainers = (List<Trainer>?)ViewData["TrainersSQLList"];
+
+            <table class="table table-stripped">
+                <thead>
+                    <tr>
+                        @* <th>id</th> *@
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        @* <th>email</th>
+                            <th>phone</th>
+                            <th>address</th> *@
+                        @* <th>Details</th> *@
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var trainer in AllTrainers)
+                    {
+                        <tr>
+                            @* <td>@trainer.id</td> *@
+                            <td>@trainer.first_name</td>
+                            <td>@trainer.last_name</td>
+                            @* <td>@trainer.email</td> *@
+                            @* <td>@trainer.phone</td> *@
+                            @* <td>@trainer.address</td> *@
+                            <td align="center"><a href="/Trainer/Details/@trainer.id"><img id="img_display" title="View Details"
+                                    src="https://cdn-icons-png.flaticon.com/128/6592/6592963.png"></a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+
+            </table>
+            
+        }
+    </div>
+   
+</body>
+
+</html>

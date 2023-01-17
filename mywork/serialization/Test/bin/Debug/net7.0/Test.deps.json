@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Test/1.0.0": {
+        "dependencies": {
+          "Faculty": "1.0.0",
+          "Facultylist": "1.0.0"
+        },
+        "runtime": {
+          "Test.dll": {}
+        }
+      },
+      "Faculty/1.0.0": {
+        "runtime": {
+          "Faculty.dll": {}
+        }
+      },
+      "Facultylist/1.0.0": {
+        "dependencies": {
+          "Faculty": "1.0.0"
+        },
+        "runtime": {
+          "Facultylist.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Test/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Faculty/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Facultylist/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
