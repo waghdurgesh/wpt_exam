@@ -1,0 +1,73 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = LMS
+build_property.RootNamespace = LMS
+build_property.ProjectDir = E:\229028_Durgesh_Wagh\LearningManSystem\LMS\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\229028_Durgesh_Wagh\LearningManSystem\LMS
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/229028_Durgesh_Wagh/LearningManSystem/LMS/Views/Auth/Failed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxGYWlsZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/229028_Durgesh_Wagh/LearningManSystem/LMS/Views/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/229028_Durgesh_Wagh/LearningManSystem/LMS/Views/Auth/Signup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxTaWdudXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/229028_Durgesh_Wagh/LearningManSystem/LMS/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/229028_Durgesh_Wagh/LearningManSystem/LMS/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/229028_Durgesh_Wagh/LearningManSystem/LMS/Views/Home/ProfileList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9maWxlTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/229028_Durgesh_Wagh/LearningManSystem/LMS/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/229028_Durgesh_Wagh/LearningManSystem/LMS/Views/Shared/_Layout_Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRfTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/229028_Durgesh_Wagh/LearningManSystem/LMS/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/229028_Durgesh_Wagh/LearningManSystem/LMS/Views/Trainer/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lclxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/229028_Durgesh_Wagh/LearningManSystem/LMS/Views/Trainer/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lclxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/229028_Durgesh_Wagh/LearningManSystem/LMS/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/229028_Durgesh_Wagh/LearningManSystem/LMS/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/229028_Durgesh_Wagh/LearningManSystem/LMS/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-oaye5qotgs
